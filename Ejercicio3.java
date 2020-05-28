@@ -18,9 +18,11 @@ public class Ejercicio3
              else
              result1=result1+a[i];
             }
-         
-         for(int x=i+1;x<(a.length);x++)
+         //Ciclo for para asignar el segundo numero que comenzara en una posicion mas adelante donde termino el primero
+         for(int x=i+1;x<(a.length);x++){
             result2=result2+a[x];
+         }
+        //Se realiza la operacion usando el valor absoluto
            int total=Math.abs(Integer.parseInt(result1)-Integer.parseInt(result2)); 
             
             return total;
